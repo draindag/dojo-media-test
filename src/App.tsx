@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ServicesBooking } from './ServicesBooking';
 
 // Вставляем проект 01 (Светлый Дом / Додзё Медиа)
