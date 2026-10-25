@@ -10,22 +10,22 @@ const servicesData: ServiceItem[] = [
   {
     id: 'aligners',
     title: 'Элайнеры',
-    image: 'public/images/Услуги-Форма/Элайнеры.jpg',
+    image: '/public/images/services/service-1.jpg',
   },
   {
     id: 'implantation',
     title: 'Имплантация',
-    image: 'public/images/Услуги-Форма/Имплантация.png',
+    image: '/public/images/services/service-2.png',
   },
   {
     id: 'braces',
     title: 'Брекеты',
-    image: 'public/images/Услуги-Форма/Брекеты-2.jpg',
+    image: '/public/images/services/service-3.jpg',
   },
   {
     id: 'therapy',
     title: 'Терапия',
-    image: 'public/images/Услуги-Форма/Терапия.png',
+    image: '/public/images/services/service-4.png',
   },
 ];
 
@@ -188,7 +188,7 @@ export const ServicesBooking: React.FC = () => {
             {/* Фото девушки слева */}
             <div className="order-2 lg:order-1 lg:col-span-4 flex justify-center items-end self-end px-4 lg:px-0">
               <img
-                src="public/images/Услуги-Форма/МОДЕЛЬ.png?auto=format&fit=crop&w=700&q=80"
+                src="/public/images/services/girl-banner.png?auto=format&fit=crop&w=700&q=80"
                 alt="Специалист"
                 className="w-[260px] sm:w-[300px] lg:w-[340px] object-contain drop-shadow-2xl translate-y-1"
               />

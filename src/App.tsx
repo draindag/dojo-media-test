@@ -15,21 +15,21 @@ const projects: Project[] = [
     id: 1,
     title: 'БРИСКЛИ',
     category: 'Сайт · Брендинг · Реклама',
-    image: 'public/images/БРИСКЛИ.jpg?auto=format&fit=crop&w=800&q=80',
+    image: '/public/images/project-1.jpg?auto=format&fit=crop&w=800&q=80',
     linkText: 'Смотреть проект →',
   },
   {
     id: 2,
     title: 'ТРЕЙД ОВЕРСИЗ',
     category: 'Сайт · Стратегия · Реклама',
-    image: 'public/images/ТРЕЙД-ОВЕРСИЗ.jpg?auto=format&fit=crop&w=800&q=80',
+    image: '/public/images/project-2.jpg?auto=format&fit=crop&w=800&q=80',
     linkText: 'Смотреть проект →',
   },
   {
     id: 3,
     title: 'ГОСТИНЫЙ ДВОР',
     category: 'Сайт · Брендинг · Стратегия',
-    image: 'public/images/ГОСТИНЫЙ-ДВОР.jpg?auto=format&fit=crop&w=800&q=80',
+    image: '/public/images/project-3.jpg?auto=format&fit=crop&w=800&q=80',
     linkText: 'Смотреть проект →',
   },
 ];
@@ -105,7 +105,7 @@ function DojoMediaView() {
 
           <div className="w-full overflow-hidden border border-[#E0D9CD]">
             <img
-              src="/public/images/Цифровое-ремесло.jpg"
+              src="/public/images/hero-painting.jpg"
               alt="Цифровое ремесло Додзё Медиа"
               className="w-full h-[220px] sm:h-[380px] lg:h-[480px] object-cover object-center"
             />
