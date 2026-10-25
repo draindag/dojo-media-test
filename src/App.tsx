@@ -5,7 +5,6 @@ import project1 from './assets/project-1.jpg';
 import project2 from './assets/project-2.jpg';
 import project3 from './assets/project-3.jpg';
 
-// Вставляем проект 01 (Светлый Дом / Додзё Медиа)
 interface Project {
   id: number;
   title: string;
@@ -208,7 +207,7 @@ export default function App() {
                 : 'text-gray-300 hover:text-white'
             }`}
           >
-            01. Светлый Дом (Додзё)
+            01. Светлый Дом
           </button>
           <button
             onClick={() => setActiveTab('landing2')}
