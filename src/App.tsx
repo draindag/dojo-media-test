@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { ServicesBooking } from './ServicesBooking';
+import heroPainting from './assets/hero-painting.jpg';
+import project1 from './assets/project-1.jpg';
+import project2 from './assets/project-2.jpg';
+import project3 from './assets/project-3.jpg';
 
 // Вставляем проект 01 (Светлый Дом / Додзё Медиа)
 interface Project {
@@ -15,21 +19,21 @@ const projects: Project[] = [
     id: 1,
     title: 'БРИСКЛИ',
     category: 'Сайт · Брендинг · Реклама',
-    image: '/public/images/project-1.jpg?auto=format&fit=crop&w=800&q=80',
+    image: project1,
     linkText: 'Смотреть проект →',
   },
   {
     id: 2,
     title: 'ТРЕЙД ОВЕРСИЗ',
     category: 'Сайт · Стратегия · Реклама',
-    image: '/public/images/project-2.jpg?auto=format&fit=crop&w=800&q=80',
+    image: project2,
     linkText: 'Смотреть проект →',
   },
   {
     id: 3,
     title: 'ГОСТИНЫЙ ДВОР',
     category: 'Сайт · Брендинг · Стратегия',
-    image: '/public/images/project-3.jpg?auto=format&fit=crop&w=800&q=80',
+    image: project3,
     linkText: 'Смотреть проект →',
   },
 ];
@@ -105,7 +109,7 @@ function DojoMediaView() {
 
           <div className="w-full overflow-hidden border border-[#E0D9CD]">
             <img
-              src="/public/images/hero-painting.jpg"
+              src={heroPainting}
               alt="Цифровое ремесло Додзё Медиа"
               className="w-full h-[220px] sm:h-[380px] lg:h-[480px] object-cover object-center"
             />

@@ -7,7 +7,7 @@
 ## Демонстрация и ссылки
 
 * **Рабочий сайт (Deploy):** `https://ваш-проект.vercel.app`
-* **Репозиторий (GitHub):** `https://github.com/ваш-логин/vibe-test`
+* **Репозиторий (GitHub):** `https://github.com/draindag/dojo-media-test.git`
 
 ## Стек технологий
 

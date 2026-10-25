@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import service1 from './assets/service-1.jpg';
+import service2 from './assets/service-2.png';
+import service3 from './assets/service-3.jpg';
+import service4 from './assets/service-4.png';
+import girlBanner from './assets/girl-banner.png';
 
 interface ServiceItem {
   id: string;
@@ -10,22 +15,22 @@ const servicesData: ServiceItem[] = [
   {
     id: 'aligners',
     title: 'Элайнеры',
-    image: '/public/images/services/service-1.jpg',
+    image: service1,
   },
   {
     id: 'implantation',
     title: 'Имплантация',
-    image: '/public/images/services/service-2.png',
+    image: service2,
   },
   {
     id: 'braces',
     title: 'Брекеты',
-    image: '/public/images/services/service-3.jpg',
+    image: service3,
   },
   {
     id: 'therapy',
     title: 'Терапия',
-    image: '/public/images/services/service-4.png',
+    image: service4,
   },
 ];
 
@@ -188,7 +193,7 @@ export const ServicesBooking: React.FC = () => {
             {/* Фото девушки слева */}
             <div className="order-2 lg:order-1 lg:col-span-4 flex justify-center items-end self-end px-4 lg:px-0">
               <img
-                src="/public/images/services/girl-banner.png?auto=format&fit=crop&w=700&q=80"
+                src={girlBanner}
                 alt="Специалист"
                 className="w-[260px] sm:w-[300px] lg:w-[340px] object-contain drop-shadow-2xl translate-y-1"
               />
