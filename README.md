@@ -6,8 +6,8 @@
 
 ## Демонстрация и ссылки
 
-* **Рабочий сайт (Deploy):** `https://ваш-проект.vercel.app`
-* **Репозиторий (GitHub):** `https://github.com/draindag/dojo-media-test.git`
+* **Рабочий сайт (Deploy):** [Vercel](https://dojo-media-test-topaz.vercel.app)
+* **Репозиторий (GitHub):** [GitHub](https://github.com/draindag/dojo-media-test)
 
 ## Стек технологий
 
@@ -24,7 +24,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone [https://github.com/ваш-логин/vibe-test.git](https://github.com/ваш-логин/vibe-test.git)
+git clone https://github.com/draindag/dojo-media-test.git
 cd vibe-test
 ```
 
